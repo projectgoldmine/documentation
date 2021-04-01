@@ -3,7 +3,7 @@
 
 VROI is built using Yii 1.x framework which uses MVC pattern.  
 
-## Main code folder
+## Main code directory
 ```
 
 ├── VROI-Main-Code
@@ -12,7 +12,7 @@ VROI is built using Yii 1.x framework which uses MVC pattern.
 ```
 
 
-visualizeroi is the folder contains all the code for VROI main appication code and all endpoitns for Lead Harvesters and Value collaborators. 
+visualizeroi is the directory contains all the code for VROI main appication code and all endpoitns for Lead Harvesters and Value collaborators. 
 
 ### Assets
 ```
@@ -215,5 +215,76 @@ Contains local files but not use because VROI is on in English
 
 Contains all of the model classes. Logic to interact with database or third party services.  you may also see some the logic in controllers 
 
+
+### protected/runtime
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── runtime
+
+
+```
+
+used by YII framework to store cached  files.  Please do not it use it
+
+
+### protected/tests
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── tests
+
+
+```
+
+not in used as VROI dont have any tests 
+
+
+ ### protected/vendors
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── vendors
+
+
+```
+
+Contains third party libraries and apis . please always use composer to install the dependency 
+
+
+
+### protected/vendors
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── views
+
+
+```
+
+
+### protected/modules
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── modules
+
+
+```
 
 
