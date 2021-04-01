@@ -1,7 +1,7 @@
 
 # Folder Structure VROI Main Code
 
-VROI is built using Yii 1.x framework which uses MVC pattern.  
+VROI is built using Yii 1.x framework which a MVC framework.  
 
 ## Main code directory
 ```
