@@ -183,6 +183,37 @@ Used to store database migration but the migration script is not working so this
 
 ```
 
-Contains third libraries and apis like excel ETC. please use composer to install a library here or can also added manually  
+Contains third libraries and apis like excel ETC. please use composer to install a library here or can also added manually
+
+
+### protected/extensions
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── messages
+
+
+```
+
+Contains local files but not use because VROI is on in English 
+
+
+### protected/extensions
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── models
+
+
+```
+
+Contains all of the model classes. Logic to interact with database or third party services.  you may also see some the logic in controllers 
+
 
 
