@@ -88,10 +88,19 @@ sf_usage_field_name                           |
 sf_usage_field_label                          |
 
 
+## 7) salesforce_dataflow_sobject_field table
 
 
 
-## 7) salesforce_dataflow table
+ Column                        | Description
+-------------                  | -------------
+salesforce_dataflow_item_i     | 
+salesforce_dataflow_sobject_id |  
+sf_name                        |   
+sf_label                       |  
+
+
+## 8) salesforce_dataflow table
 
 
 
