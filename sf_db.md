@@ -20,6 +20,8 @@ sf_organization_id | salesforce organization ID
 
 ## salesforce_login table
 
+In Salesforce users can have differentlevels of access. This table  stores salesforce data related for each user 
+
  Column            | Description
 -------------      | -------------
 sf_user_id         | 
