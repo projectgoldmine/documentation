@@ -61,6 +61,35 @@ if_sf_value                    |
 set_to                         |
 
 
+## salesforce_dataflow_inclusion table
+
+
+
+ Column                        | Description
+-------------                  | -------------
+salesforce_dataflow_id         | 
+salesforce_dataflow_item_id    |  
+
+
+## salesforce_dataflow_sobject table
+
+
+
+ Column                                       | Description
+-------------                                 | -------------
+salesforce_dataflow_sobject_id                | 
+salesforce_dataflow_map_id                    |  
+sf_name                                       |   
+sf_label                                      |  
+referencing_salesforce_dataflow_sobject_id    |  
+sf_reference_field_name                       |
+sf_reference_name                             |
+sf_usage_field_name                           |
+sf_usage_field_label                          |
+
+
+
+
 
 ## salesforce_dataflow table
 
