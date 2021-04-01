@@ -7,7 +7,7 @@
 
 ## salesforce_instance table
 
- stores data of connected salesforce account with VROI
+ stores data  connected salesforce account Data
  
   
   Column           | Description
@@ -18,3 +18,12 @@ sf_refresh_token   | salesforce refreach token. only used for batch import
 sf_organization_id | salesforce organization ID 
 
 
+## salesforce_login table
+
+ Column            | Description
+-------------      | -------------
+sf_user_id         | 
+sf_id              |  
+sf_access_token    | 
+sf_instance_url    | 
+sf_partner_url     |
