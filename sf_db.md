@@ -44,6 +44,23 @@ primary                        |
 auto_save                      |
 
 
+## salesforce_dataflow_item table
+
+
+
+ Column                        | Description
+-------------                  | -------------
+salesforce_dataflow_item_id    | 
+salesforce_dataflow_map_id     |  
+enable_save                    |   
+lock_save                      |  
+enable_load                    |  
+unlink                         |
+unlink_value                   |
+if_sf_value                    |
+set_to                         |
+
+
 
 ## salesforce_dataflow table
 
