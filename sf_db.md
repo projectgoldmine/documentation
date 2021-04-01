@@ -24,8 +24,8 @@ In Salesforce users can have differentlevels of access. This table  stores sales
 
  Column            | Description
 -------------      | -------------
-sf_user_id         | 
-sf_id              |  
-sf_access_token    | 
-sf_instance_url    | 
-sf_partner_url     |
+sf_user_id         |  user salesforce ID
+sf_id              |  user salesforce rest api url to get user data
+sf_access_token    |  user access token 
+sf_instance_url    |  user salesforce account user. 
+sf_partner_url     |  user account SOAP url. not in use. we use REST
