@@ -201,7 +201,7 @@ Contains third libraries and apis like excel ETC. please use composer to install
 Contains local files but not use because VROI is on in English 
 
 
-### protected/extensions
+### protected/models
 
 ```
 
