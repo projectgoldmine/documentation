@@ -29,3 +29,31 @@ sf_id              |  user salesforce rest api url to get user data
 sf_access_token    |  user access token 
 sf_instance_url    |  user salesforce account user. 
 sf_partner_url     |  user account SOAP url. not in use. we use REST
+
+## salesforce_dataflow_map table
+
+
+
+ Column                        | Description
+-------------                  | -------------
+salesforce_dataflow_map_id     | 
+salesforce_instance_id         |  
+visualizer_type_version_id     |   
+name                           |  
+primary                        |  
+auto_save                      |
+
+
+
+## salesforce_dataflow table
+
+
+
+ Column                        | Description
+-------------                  | -------------
+salesforce_dataflow_id         | 
+salesforce_dataflow_map_id     |  
+visualizer_id                  |   
+created                        |  
+direction                      |  
+sf_object_id                   |
