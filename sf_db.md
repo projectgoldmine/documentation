@@ -5,7 +5,7 @@
 
 
 
-## salesforce_instance table
+## 1) salesforce_instance table
 
  stores data  connected salesforce account Data
  
@@ -18,7 +18,7 @@ sf_refresh_token   | salesforce refreach token. only used for batch import
 sf_organization_id | salesforce organization ID 
 
 
-## salesforce_login table
+## 2) salesforce_login table
 
 In Salesforce users can have differentlevels of access. This table  stores salesforce data related for each user 
 
@@ -30,7 +30,7 @@ sf_access_token    |  user access token
 sf_instance_url    |  user salesforce account user. 
 sf_partner_url     |  user account SOAP url. not in use. we use REST
 
-## salesforce_dataflow_map table
+## 3) salesforce_dataflow_map table
 
 
 
@@ -44,7 +44,7 @@ primary                        |
 auto_save                      |
 
 
-## salesforce_dataflow_item table
+## 4) salesforce_dataflow_item table
 
 
 
@@ -61,7 +61,7 @@ if_sf_value                    |
 set_to                         |
 
 
-## salesforce_dataflow_inclusion table
+## 5) salesforce_dataflow_inclusion table
 
 
 
@@ -71,7 +71,7 @@ salesforce_dataflow_id         |
 salesforce_dataflow_item_id    |  
 
 
-## salesforce_dataflow_sobject table
+## 6) salesforce_dataflow_sobject table
 
 
 
@@ -91,7 +91,7 @@ sf_usage_field_label                          |
 
 
 
-## salesforce_dataflow table
+## 7) salesforce_dataflow table
 
 
 
