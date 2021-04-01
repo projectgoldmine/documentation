@@ -157,8 +157,32 @@ Config  constants all of the database or other configurations like CSRF validati
 
 Controllers contain almost all of the controllers classes. Please add your controller classes here if used by UI and not by external UIs
 
+### protected/data
+
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── data
+
+```
+
+Used to store database migration but the migration script is not working so this directory is now only used to store SQL queries of database changes required 
 
 
+### protected/extensions
 
+```
+
+├── VROI-Main-Code
+.   └── visualizeroi
+.       └── protected
+.            └── extensions
+
+
+```
+
+Contains third libraries and apis like excel ETC. please use composer to install a library here or can also added manually  
 
 
