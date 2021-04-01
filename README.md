@@ -4,9 +4,12 @@
 VROI is built using Yii 1.x framework which uses MVC pattern.  
 
 ## Main code folder
+```
 
 ├── VROI-Main-Code
-.   └── visualizeroi
+.  └── visualizeroi
+
+```
 
 
 visualizeroi is the folder contains all the code for VROI main appication code and all endpoitns for Lead Harvesters and Value collaborators. 
