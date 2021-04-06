@@ -10,12 +10,14 @@
  stores data  connected salesforce account Data
  
   
-  Column           | Description
--------------      | -------------
-environment        | is the conncted account a sandbox or production account
-sf_client_secret   |  salesfroce connected app client secret
-sf_refresh_token   | salesforce refreach token. only used for batch import
-sf_organization_id | salesforce organization ID 
+  Column               | Description
+-------------          | -------------
+salesforce_instance_id | Primary ID
+organization_id        | Organization ID
+environment            | is the conncted account a [sandbox](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_get_dev_account.htm) or production account
+sf_client_secret       | salesfroce connected app client secret
+sf_refresh_token       | salesforce refreach token. only used for batch import
+sf_organization_id     | salesforce organization ID 
 
 
 ## 2) salesforce_login table
