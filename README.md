@@ -287,5 +287,5 @@ Contains third party libraries and apis . please always use composer to install 
 
 ```
 
- [please check](https://github.com/projectgoldmine/documentation/blob/main/modules.md)
+ for protected/modules [please check](https://github.com/projectgoldmine/documentation/blob/main/modules.md)
 
