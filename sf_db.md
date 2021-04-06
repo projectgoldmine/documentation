@@ -22,14 +22,14 @@ sf_organization_id     | salesforce [organization ID](https://help.salesforce.co
 
 ## 2) salesforce_login table
 
-In Salesforce users can have differentlevels of access. This table  stores salesforce data related for each user 
+In Salesforce users can have different levels of access. This table  stores salesforce data related for each user 
 
  Column            | Description
 -------------      | -------------
 sf_user_id         |  user salesforce ID
 sf_id              |  user salesforce rest api url to get user data
 sf_access_token    |  user access token 
-sf_instance_url    |  user salesforce account user. 
+sf_instance_url    |  user salesforce account [user link](https://help.salesforce.com/articleView?id=000322728&type=1&mode=1). 
 sf_partner_url     |  user account SOAP url. not in use. we use REST
 
 ## 3) salesforce_dataflow_map table
@@ -38,12 +38,12 @@ sf_partner_url     |  user account SOAP url. not in use. we use REST
 
  Column                        | Description
 -------------                  | -------------
-salesforce_dataflow_map_id     | 
-salesforce_instance_id         |  
-visualizer_type_version_id     |   
-name                           |  
-primary                        |  
-auto_save                      |
+salesforce_dataflow_map_id     |  Primary ID
+salesforce_instance_id         |  salesforce Instance ID
+visualizer_type_version_id     |  visualizer type version id
+name                           |  mapping name
+primary                        |  is it a primary mapping. there can be more than one mapping but only one can be primary
+auto_save                      |  should save data to salesForce automatically, work for vroi old UI but implemented in common UI   
 
 
 ## 4) salesforce_dataflow_item table
