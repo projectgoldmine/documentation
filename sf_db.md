@@ -34,6 +34,7 @@ sf_partner_url     |  user account SOAP url. not in use. we use REST
 
 ## 3) salesforce_dataflow_map table
 
+This table saves data flow data on the visualizer type version. Each version can have multiple mappings with different SalesForce objects  
 
 
  Column                        | Description
@@ -47,20 +48,20 @@ auto_save                      |  should save data to salesForce automatically, 
 
 
 ## 4) salesforce_dataflow_item table
+This table saves VROI variables types mapped with SalesForce fields. 
 
 
 
  Column                        | Description
 -------------                  | -------------
-salesforce_dataflow_item_id    | 
-salesforce_dataflow_map_id     |  
-enable_save                    |   
-lock_save                      |  
-enable_load                    |  
-unlink                         |
-unlink_value                   |
-if_sf_value                    |
-set_to                         |
+salesforce_dataflow_item_id    | Primary ID
+salesforce_dataflow_map_id     |  salesforce_dataflow_map_id
+enable_save                    |  save this field to salefroce 
+lock_save                      |  not in use
+enable_load                    |  load field data from salesforce into VROI VT
+unlink                         |  can this field be unlinked
+unlink_value                   |  the value set when visualizer is unliked from Salesforce
+
 
 
 ## 5) salesforce_dataflow_inclusion table
