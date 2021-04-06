@@ -48,7 +48,7 @@ auto_save                      |  should save data to salesForce automatically, 
 
 
 ## 4) salesforce_dataflow_item table
-This table saves VROI variables types mapped with SalesForce fields. 
+This table saves  SalesForce objects mapped. 
 
 
 
@@ -66,29 +66,31 @@ unlink_value                   |  the value set when visualizer is unliked from 
 
 ## 5) salesforce_dataflow_inclusion table
 
+Multiple salesforce objects can be mapped in a single mapping. This is just an associated table to hold 1 to multiple relation 
+
 
 
  Column                        | Description
 -------------                  | -------------
-salesforce_dataflow_id         | 
-salesforce_dataflow_item_id    |  
+salesforce_dataflow_id         |  salesforce dataflow id
+salesforce_dataflow_item_id    |   salesforce dataflow item id
 
 
 ## 6) salesforce_dataflow_sobject table
 
+Saves variable types mapped with salesforce fields 
 
 
  Column                                       | Description
 -------------                                 | -------------
-salesforce_dataflow_sobject_id                | 
-salesforce_dataflow_map_id                    |  
-sf_name                                       |   
-sf_label                                      |  
-referencing_salesforce_dataflow_sobject_id    |  
-sf_reference_field_name                       |
-sf_reference_name                             |
-sf_usage_field_name                           |
-sf_usage_field_label                          |
+salesforce_dataflow_sobject_id                | Primary ID
+salesforce_dataflow_map_id                    | salesforce dataflow map id
+sf_name                                       | Fields SF name
+sf_label                                      | Field SF label
+referencing_salesforce_dataflow_sobject_id    | Salesforce object id
+sf_reference_field_name                       | SF field API name
+sf_reference_name                             | not in use
+
 
 
 ## 7) salesforce_dataflow_sobject_field table
